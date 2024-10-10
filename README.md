@@ -46,3 +46,38 @@ Neste laboratório, aprendemos a criar um grupo de recursos no Microsoft Azure, 
 ### Links úteis: 
 - [Infraestruturada global do Azure](https://azure.microsoft.com/pt-br/explore/global-infrastructure)
 - [Explore the Globe](https://datacenters.microsoft.com/)
+
+## Configurando Recursos e Dimensionamento em Máquinas Virtuais na Azure
+**Máquina virtual do Azure:** Cria uma VM hospedada pelo Azure.
+
+**Máquina virtual do Azure com uma configuração predefinida:** Cria uma VM com predefinições com base em suas cargas de trabalho. Ex.: Modelo de teste, modelo de produção. 
+
+### Criando uma máquina virtual
+- Assinatura
+- Grupo de recursos
+- Região
+- Opções de disponibilidade
+- Zona de disponibilidade
+- Definir disco, rede, gerenciamento, monitoramento, extensões, marcas
+- Revisar + criar
+
+Ao final, será apresentado uma previsão de custos para a VM configurada.
+
+#### Condições de escala:
+- Limite de instâncias - definir mínimo e máximo;
+- Escalar horizontalmente - quando o limite de CPU atingir o valor x, aumentar a contagem de instâncias em y;
+- Reduzir horizontalmente - quando o limite de CPU diminuir para o valor x, diminuir a contagem de instâncias em y;
+- Duração da consulta em minutos.
+
+### Criando uma Área de Trabalho Virtual do Azure
+
+Tipos de pool de hosts:
+- **Pessoal:** quando a máquina será destinada à alguém em específico, ninguém mais irá utilizar aquela máquina.
+- **Pool:** quando a máquina será compartilhada por outras pessoas.
+
+### Criando um Aplicativo de Funções
+**Pilha de runtime:** .NET, Node.js, Python, Java, PowerShell Core, Custom Handler
+- .NET: Windows e Linux
+- Python: Linux
+- Node.js: Windows e Linux
+- Java: Windows e Linux
