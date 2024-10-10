@@ -9,3 +9,17 @@ Este repositório contém o resumo das lições aprendidas durante o desenvolvim
 ### Observações:
 Todo produto disponível em versão prévia ainda não tem SLA (Service Level Agreements), logo, não há nenhuma garantia de que aquele produto continuará sendo oferecido. 
 - Se você desenvolver algo utilizando um serviço em versão prévia e, em algum momento, essa aplicação parar de funcionar, não é possível recorrer com a Microsoft. 
+
+## Criando Máquinas Virtuais na Azure
+Cada SLA possui um tempo de inatividade aceitável por semana, mês e ano. 
+| SLA | Tempo de inatividade por semana | Tempo de inatividade por mês | Tempo de inatividade por ano |
+|-----|---------------------------------|------------------------------|------------------------------|
+| 99% |           1,68 hora             |         7,2 horas            |           3,65 dias          |
+| 99,9% |         10,1 minutos          |        43,2 minutos          |       8,76 horas             |
+| 99,95% |          5 minutos           |        21,6 minutos          |          4,38 horas          |
+| 99,99% |          1,01 minuto         |         4,32 minutos         |          52,56 minutos       |
+| 99,999% |         6 segundos          |         25,9 segundos        |          5,26 minutos        |
+
+### Observações:
+- Ao criar uma máquina virtual, é possível definir as opções de disponibilidade e zona de disponibilidade.
+- Ao criar uma conta de armazenamento, é possível definir o modelo de redundância (LRS, GRS, ZRS, GZRS).
