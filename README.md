@@ -1,5 +1,5 @@
 # Resumo do Laboratório da DIO
-Este repositório contém o resumo das lições aprendidas durante o desenvolvimento do lab na DIO
+Este repositório contém o resumo das lições aprendidas durante o desenvolvimento do lab na DIO.
 
 ## Microsoft Azure - Localizando Serviços por Categoria
 - A interface do portal do Microsoft Azure é a mesma para todos os usuários, independente se você está utilizando uma conta de teste ou paga. 
@@ -23,3 +23,12 @@ Cada SLA possui um tempo de inatividade aceitável por semana, mês e ano.
 ### Observações:
 - Ao criar uma máquina virtual, é possível definir as opções de disponibilidade e zona de disponibilidade.
 - Ao criar uma conta de armazenamento, é possível definir o modelo de redundância (LRS, GRS, ZRS, GZRS).
+
+## Configurando uma instância de Banco de Dados na Azure
+
+### Criar máquina virtual
+Ao selecionar a imagem da máquina virtual que será criada na Azure, a plataforma apresenta uma prévia de valor a pagar por aquela máquina por mês. 
+
+### Criar Banco de Dados SQL
+Ao criar um banco de dados, é necessário selecionar um servidor ou criar um servidor simbólico para ter acesso ao banco de dados. 
+- Com base nas configurações, o portal irá apresentar uma previsão de custos por mês. 
