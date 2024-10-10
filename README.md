@@ -32,3 +32,17 @@ Ao selecionar a imagem da máquina virtual que será criada na Azure, a platafor
 ### Criar Banco de Dados SQL
 Ao criar um banco de dados, é necessário selecionar um servidor ou criar um servidor simbólico para ter acesso ao banco de dados. 
 - Com base nas configurações, o portal irá apresentar uma previsão de custos por mês. 
+
+## Construindo Arquiteturas no Azure
+Neste laboratório, aprendemos a criar um grupo de recursos no Microsoft Azure, assim como inserir recursos dentro do grupo; 
+
+### Como criar um grupo de recursos
+- Selecionar "Grupo de Recursos" no menu do Azure (ou buscar utilizando a ferramenta de pesquisa)
+- Selecionar assinatura;
+- Definir nome do grupo de recursos;
+- Selecionar região;
+- Clicar em Revisar + Criar.
+
+### Links úteis: 
+- [Infraestruturada global do Azure](https://azure.microsoft.com/pt-br/explore/global-infrastructure)
+- [Explore the Globe](https://datacenters.microsoft.com/)
