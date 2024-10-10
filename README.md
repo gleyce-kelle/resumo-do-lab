@@ -81,3 +81,54 @@ Tipos de pool de hosts:
 - Python: Linux
 - Node.js: Windows e Linux
 - Java: Windows e Linux
+
+## Dominando o Armazenamento na Azure
+
+Sobre o Storage Account (Conta de Armazenamento)
+
+- Pode receber dados de diferentes tipos;
+- O nome do Storage Account deve ser exclusivo globalmente;
+- Aceita apenas letras minúsculas e números no nome de 3 a 24 caracteres.
+
+É possível se conectar ao compartilhamento de arquivo do Azure por meio do Windows, Linux e macOS.
+- Essa conexão irá acontecer em cima de um **SMB** (protocolo) e a porta **445**.
+
+#### Desempenho:
+| Tipo       | Recomendação                                                    |
+|------------|-----------------------------------------------------------------|
+|**Standard**| Recomendado para a maioria dos cenários – conta de uso geral v2.|
+|**Premium:**| Recomendado para cenários que exigem baixa latência.|
+
+##### Redundância:
+| Modelo | Redundância |
+|--------|-------------|
+| LRS | Armazenamento com redundância local |
+| ZRS | Armazenamento com redundância de zona |
+| GRS | Armazenamento com redundância geográfica |
+|GZRS | Armazenamento com redundância de zona geográfica |
+
+### Migrações para Azure
+Objetivos da migração:
+- Servidores, banco de dados e aplicativos web;
+- Banco de dados (somente);
+- Aplicativos Web;
+- Data Box.
+
+##### Data Box:
+- Data Box Disk: 35TB
+- Data Box: 80TB
+- Data Box Heavy: 800TB
+
+### Modelos de sincronização de arquivos
+
+#### AzCopy
+
+É um utilitário de linha de comando que pode ser usado para copiar blobs ou arquivos de ou para uma conta de armazenamento. 
+
+#### Storage Explorer
+
+É um gerenciador de armazenamento do Azure. Oferece uma interface para realização das cópias a partir da área de trabalho. Realiza o mesmo procedimento do AzCopy, mas apresenta uma interface mais amigável para quem não quer utilizar linha de comando. 
+
+
+
+
