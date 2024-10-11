@@ -129,6 +129,20 @@ Objetivos da migração:
 
 É um gerenciador de armazenamento do Azure. Oferece uma interface para realização das cópias a partir da área de trabalho. Realiza o mesmo procedimento do AzCopy, mas apresenta uma interface mais amigável para quem não quer utilizar linha de comando. 
 
+## Entendendo sobre Segurança e Identidade na Azure
 
+**Microsoft Entra ID:** é uma solução de gerenciamento de identidades e acesso na nuvem que conecta os usuários aos aplicativos, dispositivos e dados.
+- Em um modelo de sincronização, os usuário do modelo on premise são copiados para a nuvem. Obs.: Se for criado um usuário na nuvem, não é possível replicar o usuário no modelo on premise. Apenas é possível trazer da nuvem as senhas de usuários que foram sincronizados. 
 
+*Roles and Administrators*: se refere ao permissionamento em relação a outras contas. Ex.: meu usuário tem permissão para alterar a senha de outra pessoa. 
+- O que conseguimos criar, excluir, remover, que diz respeito ao permissionamento para com a criação de recurso, está relacionado ao RBAC. O RBAC ajuda a gerenciar quem tem acesso aos recursos do Azure.
 
+Os usuários do Microsoft Entra ID são permanentemente deletados autocaticamente após 30 dias em que foram deletados. 
+
+**Self-Service Password Reset:** Pode ser programado para que quando o usuário não recordar a senha, ele ou ela possa trocar. 
+
+**Microsoft Defender for Cloud:** é uma plataforma de CNAPP (proteção de aplicativo nativo de nuvem) composta de medidas e práticas de segurança projetadas para proteger os aplicativos baseados em nuvem contra ameaças e vulnerabilidades cibernéticas. 
+- Multicloud (Azure, AWS, GCP)
+- Híbrido
+
+**DevOps Security:** a segurança DevOps dentro do Defender usa um console central para capacitar equipes de seguirança com a capacidade de proteger aplicativos e recursos do código para a nuvem em ambientes multi-pipeline, onde é possível conectar a conta do Azure DevOps, GitHub e GitLab. 
