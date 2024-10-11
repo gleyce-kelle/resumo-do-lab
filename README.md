@@ -189,3 +189,14 @@ Ajuda a impor padrões organizacionais e a avaliar a conformidade em escala. For
 - [Portal de Confiança do Serviço](https://servicetrust.microsoft.com/)
 - [O que é o Azure Policy?](https://learn.microsoft.com/pt-br/azure/governance/policy/overview)
 
+## Ferramentas de Implantação na Azure
+
+**Azure Cloud Shell:** é um terminal interativo, autenticado e acessível pelo navegador para gerenciamento de recursos do Azure.
+- É necessário ter um Storage Account associado à conta para utilizar o terminal.
+
+**Azure Arc:** é uma ferramenta de gerenciamento multicloud. Funciona como uma ponte que estende a plataforma Azure para ajudar a criar aplicativos e serviços com flexibilidade para execução em datacenters, na borda e ambientes multinuvem. 
+
+### Links Úteis
+- [Bicep](https://azure.github.io/bicep/)
+- [Azure Arc](https://azure.microsoft.com/pt-br/products/azure-arc)
+- [Azure Cloud Shell](https://azure.microsoft.com/pt-br/get-started/azure-portal/cloud-shell)
