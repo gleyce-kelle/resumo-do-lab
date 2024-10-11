@@ -166,5 +166,26 @@ Obs.: O login da página da calculadora de preços é um acesso fechado para gra
 - [Calculadora do TCO (Custo Total de Propriedade)](https://azure.microsoft.com/pt-br/pricing/tco/calculator/)
 - [Calculadora de Preços](https://azure.microsoft.com/pt-br/pricing/calculator/)
 
+## Gerenciando Políticas em Acessos Azure
 
+O lock, ao contrário das TAGs (marcas) é herdado. Logo, ao aplicar um lock delete em um grupo de recursos, todas as aplicados do grupo são afetadas. 
+
+### Microsoft Purview
+É um conjunto de soluções que ajudam a organização a governar, proteger e gerenciar dados, onde quer que eles estejam. O Microsoft Purview combina soluções de governança de dados e soluções e serviços de conformidade do Microsoft 365 em uma plataforma unificada para ajudar a organização a:
+- Obtenha visibilidade dos dados em toda a sua organização;
+- Proteja e gerencie dados confidenciais durante todo o seu ciclo de vida, onde quer que estejam;
+- Governe os dados perfeitamente de maneiras novas e abrangentes;
+- Gerencie riscos de dados críticos e requisitos regulatórios.
+
+### Azure Policy
+Ajuda a impor padrões organizacionais e a avaliar a conformidade em escala. Fornece uma exibição agregada para avaliar o estado geral do ambiente, com a capacidade de drill down para a granularidade por recurso, por política.As políticas do Azure são aplicadas a nível de management group, assinatura, resource group etc.
+
+#### Azure Policy x Azure RBAC
+**Azure Policy:** garante que o estado do recurso esteja em conformidade com as regras de negócio sem levar em conta quem fez a alteração ou quem tem permissão para fazer uma alteração. 
+
+**Azure RBAC:** concentra-se em gerenciar as ações do usuário em escopos diferentes. Mesmo que um indivíduo tenha acesso para executar uma ação, se o resultado do recurso não estiver em conformidade com as políticas do negócio, o Azure Policy irá bloquear a ação ou atualização. 
+
+### Links Úteis
+- [Portal de Confiança do Serviço](https://servicetrust.microsoft.com/)
+- [O que é o Azure Policy?](https://learn.microsoft.com/pt-br/azure/governance/policy/overview)
 
