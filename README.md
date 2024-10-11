@@ -146,3 +146,25 @@ Os usuários do Microsoft Entra ID são permanentemente deletados autocaticament
 - Híbrido
 
 **DevOps Security:** a segurança DevOps dentro do Defender usa um console central para capacitar equipes de seguirança com a capacidade de proteger aplicativos e recursos do código para a nuvem em ambientes multi-pipeline, onde é possível conectar a conta do Azure DevOps, GitHub e GitLab. 
+
+## Otimizando Custos no Azure
+
+**Calculadora do TCO:** Estima a economia de custos gerada pela migração de cargas de trabalho para o Azure.
+
+Modelos de carga de trabalho:
+- Servidores
+- Banco de Dados
+- Armazenamento
+- Rede
+
+**Calculadora de preços:** Calcula os custos estimados por hora ou mensais para usar o Azure.  
+Obs.: O login da página da calculadora de preços é um acesso fechado para grandes empresas que fecharam um contrato diretamente com a Microsoft. 
+
+**Cost Management + Billing:** um serviço que ajuda a analisar, monitor e otimizar seus custos do Microsoft Cloud; entender e pagar sua fatura; e gerenciar sua conta de cobranças e assinaturas. 
+
+### Links úteis:
+- [Calculadora do TCO (Custo Total de Propriedade)](https://azure.microsoft.com/pt-br/pricing/tco/calculator/)
+- [Calculadora de Preços](https://azure.microsoft.com/pt-br/pricing/calculator/)
+
+
+
