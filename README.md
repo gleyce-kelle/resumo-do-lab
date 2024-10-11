@@ -1,5 +1,5 @@
-# Resumo do Laboratório da DIO
-Este repositório contém o resumo das lições aprendidas durante o desenvolvimento do lab na DIO.
+# Resumo dos Laboratórios da DIO
+Este repositório contém o resumo das lições aprendidas durante o desenvolvimento dos labs na DIO.
 
 ## Microsoft Azure - Localizando Serviços por Categoria
 - A interface do portal do Microsoft Azure é a mesma para todos os usuários, independente se você está utilizando uma conta de teste ou paga. 
@@ -200,3 +200,21 @@ Ajuda a impor padrões organizacionais e a avaliar a conformidade em escala. For
 - [Bicep](https://azure.github.io/bicep/)
 - [Azure Arc](https://azure.microsoft.com/pt-br/products/azure-arc)
 - [Azure Cloud Shell](https://azure.microsoft.com/pt-br/get-started/azure-portal/cloud-shell)
+
+## Monitoramente Inteligente com o Azure
+
+**Azure Monitor:** é uma solução de monitoramente para coletar, analisar e responder a dados de monitoramento de seus ambientes de nuvem e locais. 
+
+Tipos de recursos que o Monitor pode monitorar no Azure:
+- Aplicações;
+- Máquinas Virtuais;
+- Sistemas operacionais convidados;
+- Contêineres incluindo métricas do Prometheus;
+- Bases de dados;
+- Eventos de segurança em combinação com o Azure Sentinel;
+- Eventos de networking e saúde em combinação com o Network Watcher;
+- Fontes personalizadas que usam as APIs para obter dados no Azure Monitor.
+
+**Azure Service Health:** notifica sobre incidentes de serviço do Azure e manutenção planejada para que o usuário possa tomar medidas para mitigar o tempo de inatividade. 
+
+**Azure Advisor:** é um centro de recomendações que atua como um assistente de nuvem digital. Identifica recursos que não estão em conformidade e sugere melhores práticas para ótimizar suas implantações no Azure. 
