@@ -218,3 +218,21 @@ Tipos de recursos que o Monitor pode monitorar no Azure:
 **Azure Service Health:** notifica sobre incidentes de serviço do Azure e manutenção planejada para que o usuário possa tomar medidas para mitigar o tempo de inatividade. 
 
 **Azure Advisor:** é um centro de recomendações que atua como um assistente de nuvem digital. Identifica recursos que não estão em conformidade e sugere melhores práticas para ótimizar suas implantações no Azure. 
+
+## Grupos de Segurança do Azure
+
+Os grupos de segurança do Azure são recursos que permitem controlar o tráfego de rede e aplicar políticas de segurança. Eles podem ser usados para proteger e isolar recursos em uma rede virtual do Azure. 
+Existem diferentes tipos de grupos de segurança no Azure, como o Azure Network Security Group (NSG) e os grupos de segurança do Azure DevOps. 
+
+### Azure Network Security Group (NSG) 
+- Controla o tráfego de rede entre os recursos do Azure
+- Permite ou nega o tráfego de rede de entrada ou saída
+- Contém regras de segurança que definem o que é permitido ou negado
+
+### Grupos de segurança do Azure DevOps 
+- Atribuem permissões que permitem ou negam acesso a recursos ou tarefas
+- Os membros herdam as permissões atribuídas ao grupo de segurança
+- Os administradores podem definir grupos de segurança personalizados
+
+#### Links úteis:
+- [Network Security Groups – NSG](https://learn.microsoft.com/pt-br/azure/virtual-network/network-security-groups-overview)
